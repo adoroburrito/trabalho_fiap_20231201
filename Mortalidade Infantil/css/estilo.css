@@ -1,0 +1,131 @@
+*{
+       margin: 0;
+       padding: 0;
+}
+
+#container_fluid{
+       width: 100%;
+}
+
+#menu{
+       display: flex;
+       background-color: #1c1c1c;
+       color: #ffffff;
+       height: 80px;
+       align-items: center;
+       justify-content: center;
+       font-size: 40px;
+       list-style: none;
+       font-family: "inter";
+       margin: 0;
+   }
+
+#menu a{
+       justify-content: center;
+       display: flex;
+       text-decoration: none;
+       color: #ffffff;
+   }
+
+#menu li{
+       margin-right: 10px;
+       width: 200px;
+   }
+
+ul a:hover{
+       color: #000000;}
+
+#red{
+    background-color: red;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+#first:hover{
+       background-color: #8FC710;
+       padding: 25px;
+       border-radius: 50px;
+       color: #000000;
+   }
+
+   
+#green:hover{
+       background-color: green;
+       padding: 25px;
+       border-radius: 50px;
+       color: #000000;
+   }
+#yellow:hover{
+       background-color: yellow;
+       padding: 25px;
+       border-radius: 50px;
+       color: #000000;
+   }
+   
+#red:hover{
+       background-color: red;
+       padding: 25px;
+       border-radius: 50px;
+       color: #000000;
+   }
+   
+#purple:hover{
+       background-color: purple;
+       padding: 25px;
+       border-radius: 50px;
+       color: #000000;
+   }
+   
+h1{color:#62156d !important;
+  font-size: 5rem !important;
+  font-weight: bolder !important;
+  text-align:center;
+  padding:10%;
+}
+
+img{
+    width:500px;
+    height:500px;
+}
+
+.map{
+    width: auto;
+    height:auto;
+}
+.col{
+     color:#e6e7ef;
+     padding:2%;
+     margin:2%;
+     text-align:center;
+     font-family: Inter,'Open Sans',sans-serif;
+     font-size: 105%;
+}
+
+li{
+   text-align:justify;
+   font-family: Inter,'Open Sans',sans-serif;
+}
+
+.title{background:#d5bbe3;
+      font-family: Inter,'Open Sans',sans-serif;
+      background-size:100%;
+      background-attachment:auto;
+      background-position: center top;
+      background-repeat: no-repeat;
+}
+.body1{background:#b083bc;
+       font-family: Inter,'Open Sans',sans-serif;
+}
+.body2{background:#874a93;
+       font-family: Inter,'Open Sans',sans-serif;
+}
+.body3{background:#62156d;
+       font-family: Inter,'Open Sans',sans-serif;
+}
+
+table{
+      text-align:center;
+      font-family: Inter,'Open Sans',sans-serif;
+      margin: 10px;
+}

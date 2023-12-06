@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/map-117174.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1193A0;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 88px;
+    color: #ffffff;
+    -webkit-text-stroke: 2px #000000;
+}
+
+#seta{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 590px;
+}
+
+#seta2{ width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 2250px;
+}
+
+ul{
+    display: flex;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    list-style: none;
+    font-family: "inter";
+}
+
+ul a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul a:hover{
+    color: #000000;
+}
+
+#first{
+    background-color: #8FC710;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+
+ul li{
+    margin-right: 10px;
+    width: 200px;
+}
+
+#green:hover{
+    background-color: green;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+#yellow:hover{
+    background-color: yellow;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+#red:hover{
+    background-color: red;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+#purple:hover{
+    background-color: purple;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+#pitchvideo{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+    background-color: #12828F;
+    background-image: url(../img/globe-5432817.svg);
+    background-repeat: no-repeat;
+    background-size: 600px 850px;
+    font-family: 'Inter', sans-serif;
+}
+video{
+    border: 3px solid #8FC710;
+    border-radius: 10px;
+}
+
+a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover{
+    color: #000000;
+    font-weight: 900;
+}
+
+h2{
+    font-size: 70px;
+    color: #8FC710;
+    padding-bottom: 30px;
+    -webkit-text-stroke: 1px #8FC710;
+}
+
+#oms{
+    font-family: 'Playfair Display', serif;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-color: #15616D;
+    background-position: 50px 50px;
+    background-size: 600px 600px;
+    justify-content: center;
+    background-image: url(../img/kisspng-world-health-organization-computer-icons-business-organization-5abe51ca8852e3.9978624715224222185584.png);
+}
+
+h3{
+    font-size: 80px;
+    color: #1193A0;
+    position: absolute;
+    right: 200px;
+}
+
+h4{
+    color: #8FC710;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+#metas{
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+    display: flex;
+    background-color: #1C3D4B;
+    font-size: 40px;
+    letter-spacing: 1px;
+    font-size: 32px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#metas img{
+    width: 500px;
+    height: 300px;
+    border: 2px solid #192A37;
+    border-radius: 10px;
+}
+
+.divp1, .divp2, .divp3, .divp4{
+    padding-top: 50px;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    justify-content: flex-start;
+    color: #000000;
+}
+
+.divs1, .divs2, .divs3, .divs4{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.divmain1, .divmain2, .divmain3, .divmain4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid #192A37;
+    width: 1200px;
+    border-radius: 50px;
+    margin: -2px;
+    background-color: #ffffff;
+}
+
+button{
+    width: 300px;
+    height: 60px;
+    font-size: 40px;
+    font-family: 'Inter';
+    color: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+.bt1{
+    background-color: green;
+}
+.bt2{
+    background-color: yellow;
+}
+.bt3{
+    background-color: red;
+}
+.bt4{
+    background-color: purple;
+}
+
+.title1{
+    color: green;
+    font-size: 40px;
+    font-weight: 900;
+}
+.title2{
+    color: yellow;
+    font-size: 40px;
+    font-weight: 900;
+}
+.title3{
+    color: red;
+    font-size: 40px;
+    font-weight: 900;
+}
+.title4{
+    color: purple;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:  #151A25;
+    font-size: 80px;
+    color: #8FC710;
+    font-family: 'inter';
+    height: 1365px;;
+}
+#groupimg{
+    width: 100%;
+    height: 700px;
+    background-color: #192A37;
+    background-image: url(../img/grupo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 800px;
+}
+
+#groupnames{
+    color: #ffffff;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 300px;
+}
+#groupname{
+    color: #ffffff;
+    font-size: 32px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 300px;
+    margin-left: 200px;
+}
+
+#group{
+    height: 545px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h5{
+    margin-top: 50px;
+}
+
+#group p{background-color: #192A37;
+    border-radius: 5px;}
+
+footer p{
+    background-color: #13141E;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+

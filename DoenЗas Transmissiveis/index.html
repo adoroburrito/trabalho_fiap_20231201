@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Doenças Transmissíveis</title>
+<style>
+  :root {
+    --main-bg-color: #30C5FF;
+    --main-fg-color: #0078a7;
+  }
+  body {
+    font-family: 'Arial', sans-serif;
+    margin: 0; /* Remove a margem padrão do body */
+  }
+  .section {
+    display: flex;
+    align-items: center; /* Centraliza o conteúdo verticalmente */
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    text-align: center;
+    min-height: 200px; /* Define uma altura mínima para todas as seções */
+    padding: 1em;
+  }
+  /* Sem margens entre seções */
+  .section + .section {
+    border-top: none; /* Remove bordas superiores para seções subsequentes se necessário */
+  }
+  /* Exemplo de tonalidades de azul para as seções */
+  .definition {
+    background-color: var(--main-bg-color);
+    filter: brightness(100%);
+  }
+  .definition > .content-container > h2 {
+    color: var(--main-fg-color);
+    filter: brightness(100%);
+  }
+  .definition > .content-container > p {
+    color: var(--main-fg-color);
+    filter: brightness(80%);
+  }
+
+  .introduction {
+    background-color: var(--main-bg-color);
+    filter: brightness(110%);
+    background: linear-gradient(rgba(48,197,255,.97),rgba(48,197,255,.97)), url("bg2.png");
+    background-repeat: repeat;
+  }
+  .introduction > .content-container > h2 {
+    color: var(--main-fg-color);
+    filter: brightness(110%);
+  }
+  .introduction > .content-container > p {
+    color: var(--main-fg-color);
+    filter: brightness(90%);
+  }
+
+  .current-scenario {
+    background-color: var(--main-bg-color);
+    filter: brightness(90%);
+    background: linear-gradient(rgba(48,197,255,.97),rgba(48,197,255,.97)), url("bg1.png");
+    background-repeat: repeat;
+  }
+  .current-scenario > .content-container > h2 {
+    color: var(--main-fg-color);
+    filter: brightness(90%);
+  }
+  .current-scenario > .content-container > p {
+    color: var(--main-fg-color);
+    filter: brightness(70%);
+  }
+
+  .prevention-treatment {
+    background-color: var(--main-bg-color);
+    filter: brightness(80%);
+  }
+  .prevention-treatment > .content-container > h2 {
+    color: var(--main-fg-color);
+    filter: brightness(80%);
+  }
+  .prevention-treatment > .content-container > p {
+    color: var(--main-fg-color);
+    filter: brightness(60%);
+  }
+
+  .it-innovations {
+    background-color: var(--main-bg-color);
+    filter: brightness(70%);
+    background: linear-gradient(rgba(48,197,255,.97),rgba(48,197,255,.97)), url("bg3.png");
+    background-repeat: repeat;
+  }
+  .it-innovations > .content-container > h2 {
+    color: var(--main-fg-color);
+    filter: brightness(70%);
+  }
+  .it-innovations > .content-container > p {
+    color: var(--main-fg-color);
+    filter: brightness(50%);
+  }
+
+  /* Container para centralizar o conteúdo verticalmente */
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    max-width: 75%;
+  }
+  .content-container > h2 {
+    font-size: 2.6em;
+  }
+  .content-container > p {
+    font-size: 2.0em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+  }
+  .content-container > img {
+    display: block;
+    margin: 0 auto;
+    width: 45em;
+    text-align: center;
+    filter: 
+        brightness(100%)
+        sepia(1) 
+        hue-rotate(180deg)/* now it's green */;
+  }
+
+  ul{
+    display: flex;
+    background-color: #1c1c1c;
+    color: #ffffff;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    list-style: none;
+    font-family: "inter";
+    margin: 0;
+}
+
+ul a{
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul a:hover{
+    color: #000000;
+}
+
+#first:hover{
+    background-color: #8FC710;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+#yellow{
+    background-color: yellow;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+
+ul li{
+    margin-right: 10px;
+    width: 200px;
+}
+
+#green:hover{
+    background-color: green;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+#yellow:hover{
+    background-color: yellow;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+#red:hover{
+    background-color: red;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+#purple:hover{
+    background-color: purple;
+    padding: 25px;
+    border-radius: 50px;
+    color: #000000;
+}
+
+</style>
+</head>
+<body>
+
+<div class="section introduction">
+  <div class="content-container">
+    <h2>Combate a doencas transmissiveis</h2>
+    <p>Nosso organismo está suscetível a uma variedade de doenças infecciosas que podem ser transmitidas entre indivíduos. Algumas dessas infecções podem ter um impacto profundo em nossa saúde, afetando órgãos e sistemas vitais. Neste contexto, exploraremos detalhes abordando como essas enfermidades podem influenciar a saúde e o bem-estar das pessoas.</p>
+  </div>
+</div>
+<nav>
+  <ul>
+      <li id="first"><a href="../Home/index.html">HOME</a></li>
+      <li id="green"><a href="../Melhoria Geral da Saúde/index.html">META 1</a></li>
+      <li id="yellow"><a href="../Doenças Transmissiveis/index.html">META 2</a></li>
+      <li id="red"><a href="../Mortalidade Infantil/index.html">META 3</a></li>
+      <li id="purple"><a href="../Doenças Nao Transmissiveis/dnts.html">META 4</a></li>
+  </ul>
+</nav>
+<div class="section definition">
+  <div class="content-container">
+    <h2>Definição</h2>
+    <img src="assoando.png"/>
+    <p>Doenças transmissíveis são enfermidades causadas por patógenos como vírus, bactérias, fungos ou parasitas, que podem ser propagadas, direta ou indiretamente, de uma pessoa para outra, ou através de vetores como mosquitos e animais. Essas doenças variam desde infecções respiratórias comuns até condições mais graves como HIV/AIDS, tuberculose e malária.</p>
+  </div>
+</div>
+
+<div class="section current-scenario">
+  <div class="content-container">
+    <h2>Cenário Atual</h2>
+    <p>De acordo com pesquisas científicas recentes, o cenário global das doenças transmissíveis é complexo e desafiador. A pandemia de COVID-19 destacou a rápida disseminação e o impacto significativo das doenças infecciosas. Além disso, doenças como malária, tuberculose e HIV/AIDS continuam a ser grandes preocupações de saúde pública, especialmente em países com recursos limitados. O aumento da resistência aos antimicrobianos também é uma crescente preocupação global, tornando o tratamento de algumas infecções bacterianas mais difícil.</p>
+    <img src="spread.png"/>
+    <p>A globalização e o aumento das viagens internacionais têm contribuído para a rápida propagação de doenças infecciosas além das fronteiras geográficas. Epidemias como o Ebola e o Zika também evidenciam como doenças inicialmente confinadas a áreas específicas podem se tornar ameaças globais. Adicionalmente, a desigualdade no acesso a recursos de saúde e a diferenças socioeconômicas ampliam as disparidades na vulnerabilidade e na capacidade de resposta a estas doenças. Essa situação é exacerbada em áreas com sistemas de saúde frágeis, onde a prevenção e o controle de doenças transmissíveis são particularmente desafiadores.</p>
+    <img src="spread2.png"/>
+    <p>No contexto atual, as desigualdades na distribuição de vacinas e tratamentos têm chamado atenção. Países com recursos limitados enfrentam grandes desafios para acessar as tecnologias de saúde mais recentes, o que agrava as disparidades em saúde global. Este cenário evidencia a necessidade de uma abordagem mais equitativa e colaborativa em saúde global, enfatizando a importância de iniciativas internacionais de partilha de recursos, conhecimento e tecnologias para combater eficazmente as doenças transmissíveis.</p>
+  </div>
+</div>
+
+<div class="section prevention-treatment">
+  <div class="content-container">
+    <h2>Prevenção e Tratamento</h2>
+    <p>A prevenção de doenças transmissíveis envolve uma combinação de medidas de saúde pública, como vacinação, higiene, saneamento, e educação em saúde. O tratamento depende do tipo específico de patógeno envolvido e pode incluir a administração de antibióticos, antivirais, antifúngicos ou medicamentos antiparasitários. A detecção precoce e o tratamento adequado são cruciais para controlar a disseminação de doenças infecciosas e reduzir a mortalidade.</p>
+    <img src="prevent.png"/>
+    <p>A educação e a conscientização pública são fundamentais para promover comportamentos preventivos, como a lavagem das mãos e o uso de métodos de barreira como máscaras e preservativos. Campanhas de saúde pública podem efetivamente reduzir a incidência de doenças transmissíveis ao informar as pessoas sobre como evitar a exposição a patógenos. Além disso, a pesquisa contínua é vital para o desenvolvimento de novas vacinas e tratamentos, assim como para a melhoria dos métodos de diagnóstico, o que permite uma intervenção mais rápida e eficaz em surtos de doenças.</p>
+    <img src="prevent2.png"/>
+    <p>O papel das políticas de saúde pública é crucial na prevenção e no tratamento de doenças transmissíveis. Estratégias eficazes incluem a implementação de programas de vacinação em massa, a melhoria do saneamento básico e o acesso a água potável. Além disso, a integração de serviços de saúde mental nos programas de tratamento de doenças transmissíveis é cada vez mais reconhecida como essencial, dado o impacto psicológico que o diagnóstico e o tratamento de longo prazo podem ter nos indivíduos.</p>
+  </div>
+</div>
+
+<div class="section it-innovations">
+  <div class="content-container">
+    <h2>Ideias Inovadoras da Área de TI</h2>
+    <img src="future1.png"/>
+    <p>A tecnologia da informação (TI) tem um papel crucial no combate às doenças transmissíveis. Inovações como o uso de big data e inteligência artificial para prever surtos, aplicativos móveis para rastreamento de contatos e disseminação de informações sobre saúde, e sistemas de telemedicina para diagnósticos e consultas remotas estão transformando a maneira como as doenças são monitoradas e gerenciadas. Além disso, a TI pode auxiliar na otimização da logística de vacinas e medicamentos, garantindo que os recursos cheguem onde são mais necessários.</p>
+    <img src="future2.png"/>
+    <p>O potencial da realidade aumentada e de dispositivos vestíveis na área da saúde também está sendo explorado para melhorar a experiência de tratamento e monitoramento das doenças transmissíveis. Estes dispositivos podem oferecer acompanhamento em tempo real dos sintomas e facilitar a adesão ao tratamento, especialmente em doenças crônicas. Além disso, o uso de redes sociais e plataformas digitais para campanhas de conscientização e educação em saúde está ganhando força, permitindo alcançar um público mais amplo e diversificado de forma eficiente e interativa.</p>
+  </div>
+</div>
+
+</body>
+</html>
